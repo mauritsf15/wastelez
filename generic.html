@@ -11,64 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			/* Popup container - can be anything you want */
-			.popup {
-			  position: relative;
-			  display: inline-block;
-			  cursor: pointer;
-			  -webkit-user-select: none;
-			  -moz-user-select: none;
-			  -ms-user-select: none;
-			  user-select: none;
-			}
-			
-			/* The actual popup */
-			.popup .popuptext {
-			  visibility: hidden;
-			  width: 160px;
-			  background-color: #555;
-			  color: #fff;
-			  text-align: center;
-			  border-radius: 6px;
-			  padding: 8px 0;
-			  position: absolute;
-			  z-index: 1;
-			  bottom: 125%;
-			  left: 50%;
-			  margin-left: -80px;
-			}
-			
-			/* Popup arrow */
-			.popup .popuptext::after {
-			  content: "";
-			  position: absolute;
-			  top: 100%;
-			  left: 50%;
-			  margin-left: -5px;
-			  border-width: 5px;
-			  border-style: solid;
-			  border-color: #555 transparent transparent transparent;
-			}
-			
-			/* Toggle this class - hide and show the popup */
-			.popup .show {
-			  visibility: visible;
-			  -webkit-animation: fadeIn 1s;
-			  animation: fadeIn 1s;
-			}
-			
-			/* Add animation (fade in the popup) */
-			@-webkit-keyframes fadeIn {
-			  from {opacity: 0;} 
-			  to {opacity: 1;}
-			}
-			
-			@keyframes fadeIn {
-			  from {opacity: 0;}
-			  to {opacity:1 ;}
-			}
-			</style>
 	</head>
 	<body class="is-preload">
 
@@ -106,7 +48,7 @@
 									<p>Koop hier je kookboek! In verband met corona is het nu ook mogelijk om het kookboek als een pdf te kopen, en dit is dan ook een beetje goedkoper.</p>
 								</header>
 								<center><a class="image main" style="width: 50%;height: auto;"><img src="images/voor.jpeg" alt="Voorkant kookboek" /></a></center>
-								<center><a href="https://wastelez.myonline.store/a-58604841/welkom/waste-is-geweest-kookboek/#description" target="_blank" class="button primary">Waste is geweest fysiek boek - €9.99</a>&nbsp;&nbsp;&nbsp;<a href="https://shoptly.com/i/cza" target="_blank" class="button primary">Waste is geweest eBook - €7.99</a></center>
+								<center><a class="button primary">Waste is geweest fysiek boek - €15.99</a>&nbsp;&nbsp;&nbsp;<a class="button primary">Waste is geweest eBook - €7.99</a></center>
 								<p><br>Wastelez is voor mensen die houden van koken en zijn geïnteresseerd in duurzaam leven.
 									<br>
 									<br>Onderscheidend van andere kookboeken voor restjes vanwege onze unieke, makkelijke en lekkere recepten.
@@ -122,21 +64,15 @@
 							</section>
 
 					</div>
-					<script>
-						// When the user clicks on div, open the popup
-						function myFunction() {
-						  var popup = document.getElementById("myPopup");
-						  popup.classList.toggle("show");
-						}
-						</script>
 
 				<!-- Footer -->
 				<footer id="footer">
-					<section>
+					<section class="split contact">
 						<section>
-							<h2><a href="a-v.html">Algemene Voorwaarden</a> | <a href="retour.html">Retourneringsbeleid</a></h2>
 							<h3>Telefoon</h3>
 							<p><a >Wij zijn helaas niet per telefoon bereikbaar.</a></p>
+							</section>
+							<section>
 							<h3>Email</h3>
 							<p><a href="mailto:info@wastelez.nl">info@wastelez.nl</a></p>
 						</section>
